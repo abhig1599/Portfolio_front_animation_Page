@@ -9,7 +9,7 @@ header {
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
-    url("images/bg.jpg");
+    url("images/laptop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -45,7 +45,7 @@ nav .menu a {
 }
 
 nav .menu a:first-child {
-  color: #2bd23b;
+  color: #ffffff;
 }
 
 main {
@@ -99,24 +99,24 @@ section .btnone {
 }
 
 .btnone:hover {
-  background: #28cc56;
+  background: #ff0000;
   color: white;
 }
 
 section .btntwo {
-  background: #25e129;
-  color: rgb(0, 0, 0);
+  background: #000000;
+  color: rgb(255, 255, 255);
 }
 
 .btntwo:hover {
-  background: #fff;
+  background: #ff0000;
   color: #000;
 }
 
 .change_content:after {
   content: "";
   animation: changetext 10s infinite linear;
-  color: #26d25a;
+  color: #db932e;
 }
 
 @keyframes changetext {
